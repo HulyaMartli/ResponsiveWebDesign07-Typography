@@ -4,5 +4,12 @@
 
 * Relative to the font-size of the element (2em means 2 times the size of the current font)
 
-* The `:not` pseudo-selector can be used to select all elements that do not match the given CSS rule.
+* The `:not` pseudo-selector can be used to select all elements that do not match the given CSS rule.  
+  ~~~~
+  .daily-value p:not(.no-divider) {
+      border-bottom: 1px solid #888989;
+  }
+  ~~~~
+
+  
 
