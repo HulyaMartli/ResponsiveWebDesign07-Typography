@@ -21,6 +21,7 @@ header h1 {
 p{
     display:flex;
     justify-content: space-between;
+    padding: 3px;
 }
 
 /* TEXT */
@@ -50,6 +51,20 @@ p{
 
 }
 
+.calories-info span {
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+.left-container p {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.daily-value p:not(.no-divider){
+    border-bottom: 1px solid #888989;
+}
+
 /* DIVIDERS */
 
 .divider {
@@ -61,6 +76,23 @@ p{
     height: 10px;
 }
 
+.medium {
+    height: 5px;
+}
+
 .large, .medium {
     background-color: black;
 }
+
+/* ALIGNMENT */
+
+.right {
+    justify-content: flex-end;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+
+
